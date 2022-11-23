@@ -12,10 +12,11 @@ import { MemoHook } from './06-memos/MemoHook'
 import { Memorize } from './06-memos/Memorize'
 import { Padre } from './07-tarea-memo/Padre'
 import { HooksApp } from './HooksApp'
+import "./08-useReducer/intro-reducer"
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Padre/>
-  </React.StrictMode>
-)
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <Padre/>
+//   </React.StrictMode>
+// )
